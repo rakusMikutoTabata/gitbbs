@@ -93,5 +93,4 @@ public class CommentRepository {
 		int delNum = template.update(sql, param);
 		System.out.println(delNum + "件のコメントを削除しました");
 	}
-	
 }
