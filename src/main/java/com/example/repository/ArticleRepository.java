@@ -64,7 +64,7 @@ public class ArticleRepository {
 		SqlParameterSource param = new MapSqlParameterSource().addValue("name", article.getName()).addValue("content",
 				article.getContent());
 		int insNum = template.update(sql, param);
-		System.out.println(insNum + "件の記事を挿入しました");
+		System.out.println(insNum + "件の記事を挿入しましたうおおおおおおおおおおおおおお");
 	}
 
 	/**
